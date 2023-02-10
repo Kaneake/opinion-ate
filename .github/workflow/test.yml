@@ -1,7 +1,7 @@
 name: Test
 on: [push]
 
-jobs:s
+jobs:
   test:
     name: Test
     runs-on: ubuntu-22.04 
