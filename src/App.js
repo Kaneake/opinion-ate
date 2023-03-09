@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './features/counter/Counter.js';
+import IncrementByAmount from './features/counter/IncrementByAmount.js';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
-          <Counter />
+          <IncrementByAmount />
         </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
